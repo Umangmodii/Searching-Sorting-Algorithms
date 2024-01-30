@@ -23,7 +23,7 @@ void selection_sort(int array[], int n)
             //    array[j] = temp;
             // }
 
-            int small = i; // minimum element in unsorted array
+            int small = i; // minidmum element in unsorted array
 
             if (array[j] < array[small])
             {
