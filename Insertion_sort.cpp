@@ -14,9 +14,9 @@ void insertion_sort(int array[], int n)
 {
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++) // Check
+        for (int j = 0; j < n; j++) // All Sorted List in Array
         {
-            if (array[i] > array[j])
+            if (array[i] > array[j]) // Compare 
             {
                 array[i];
             }
